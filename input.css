@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  /* border: 1px solid red; */
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  width: 40px;
+  height: 6px;
+  background-color: hsl(205, 78%, 60%);
+}
+
+.hamburger-top {
+  transform: translateY(8px);
+}
+
+.hamburger-middle {
+  transform: translateY(16px);
+}
+
+.hamburger-bottom {
+  transform: translateY(24px);
+}
+
+.menu {
+  transform: translate(-100%);
+}
+
+.show-sidebar {
+  transform: translate(0);
+}
